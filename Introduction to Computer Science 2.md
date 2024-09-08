@@ -1,8 +1,14 @@
 # **💻 Computer Science Basics and Beyond**
 
+![PC Image](https://github.com/Himanshu2ht/Images/blob/main/pngtree-computer-system-hardware-providers-picture-image_3397205.jpg)
+
+
+
+---
+
 ## **1. Hardware🔧 vs. Software💻**
 
-<img src="https://i.ytimg.com/vi/zlT-Lg_QFTA/maxresdefault.jpg"/>
+<img src="https://i.ytimg.com/vi/zlT-Lg_QFTA/maxresdefault.jpg" widht="200" height="200"/>
 
 ### **Hardware**
 Hardware refers to the physical components of a computer. These include:
@@ -28,7 +34,7 @@ Networking refers to the exchange of data between computers over a shared medium
 - **WAN (Wide Area Network)**: A larger network that spans cities, countries, or even continents.
 - **MAN (Metropolitan Area Network)**: A network that covers a city.
 
-![Network Types](https://upload.wikimedia.org/wikipedia/commons/1/16/Network_topologies.svg)
+<img src="https://techterms.com/img/lg/network_95.png" widht="200" height="200"/>
 
 ### **Important Networking Devices**:
 - **Router**: Directs traffic between different networks.
@@ -49,7 +55,7 @@ The OSI (Open Systems Interconnection) model defines how communication occurs be
 6. **Presentation Layer**: Translates the data into a format the application can understand.
 7. **Application Layer**: The layer closest to the user, such as email clients, web browsers.
 
-![OSI Model](https://upload.wikimedia.org/wikipedia/commons/9/9c/Osi-model-jb.svg)
+<img src="https://cdn.educba.com/academy/wp-content/uploads/2019/07/OSI-Model.png" widht="300" height="300"/>
 
 ---
 
@@ -61,16 +67,16 @@ The OSI (Open Systems Interconnection) model defines how communication occurs be
 
 ### **Popular Programming Languages**:
 - **Java**: Used for enterprise applications, Android development.
-  ![Java Logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg)
+<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" widht="100" height="100"/>
   
 - **Python**: Known for simplicity and data science applications.
-  ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" widht="100" height="100"/>
 
 - **C++**: Widely used for system software, game development.
-  ![C++ Logo](https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" widht="100" height="100"/>
 
 - **JavaScript**: A must for web development (frontend and backend).
-  ![JavaScript Logo](https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" widht="100" height="100"/>
 
 ---
 
@@ -84,7 +90,7 @@ Blockchain is a decentralized, distributed ledger that records transactions acro
 - **Immutability**: Once data is written, it cannot be altered.
 - **Transparency**: Everyone has access to the same version of the ledger.
 
-![Blockchain Technology](https://upload.wikimedia.org/wikipedia/commons/6/60/Blockchain-Concept.png)
+<img src="https://m.foolcdn.com/media/dubs/images/how-blockchain-works-infographic.width-880.png" widht="300" height="300"/>
 
 ### **Applications of Blockchain**:
 - **Cryptocurrency**: Bitcoin, Ethereum, and others use blockchain for secure transactions.
@@ -104,7 +110,7 @@ A computer can be conceptualized as having **layers** of components:
 5. **Application Software**: Specific programs that perform user tasks.
 6. **User Interface Layer**: Where the user interacts with the system.
 
-![Computer Layers](https://upload.wikimedia.org/wikipedia/commons/d/df/Computer_Layers_Diagram.png)
+<img src="" widht="100" height="100"/>
 
 ---
 
@@ -117,7 +123,7 @@ A **database** is an organized collection of data, generally stored and accessed
 - **Relational Databases (RDBMS)**: Store data in tables and use SQL for querying (e.g., MySQL, PostgreSQL).
 - **NoSQL Databases**: Flexible schema databases, ideal for large-scale applications (e.g., MongoDB, Cassandra).
 
-![Relational Database](https://upload.wikimedia.org/wikipedia/commons/e/ee/ER_Diagram_MMORPG.png)
+<img src="" widht="100" height="100"/>
 
 ---
 
@@ -131,7 +137,7 @@ Cloud computing provides on-demand computing resources over the internet. It eli
 - **PaaS (Platform as a Service)**: Development platforms and tools.
 - **SaaS (Software as a Service)**: Ready-to-use software applications.
 
-![Cloud Computing](https://upload.wikimedia.org/wikipedia/commons/a/a1/Cloud_computing.svg)
+<img src="" widht="100" height="100"/>
 
 ### **Top Cloud Providers**:
 - **Amazon Web Services (AWS)**
@@ -149,7 +155,7 @@ Cybersecurity refers to the protection of internet-connected systems, including 
 - **Malware**: Malicious software designed to harm a computer (viruses, worms).
 - **Phishing**: Fraudulent attempts to obtain sensitive information by disguising as a trustworthy entity.
 
-![Cybersecurity](https://upload.wikimedia.org/wikipedia/commons/9/94/Cyber_security_at_NHS.jpg)
+<img src="" widht="100" height="100"/>
 
 ### **Best Practices for Cybersecurity**:
 - Use strong passwords and two-factor authentication (2FA).
@@ -168,7 +174,7 @@ Artificial Intelligence (AI) refers to the simulation of human intelligence in m
 - **Image Recognition**: Facial recognition, self-driving cars.
 - **Natural Language Processing (NLP)**: Understanding and generating human language.
 
-![AI Concept](https://upload.wikimedia.org/wikipedia/commons/1/1a/Artificial_intelligence_logo.png)
+<img src="" widht="100" height="100"/>
 
 ---
 

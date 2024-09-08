@@ -1,14 +1,12 @@
 # **💻 Computer Science Basics and Beyond**
 
-![PC Image](https://github.com/Himanshu2ht/Images/blob/main/pngtree-computer-system-hardware-providers-picture-image_3397205.jpg)
-
-
+<img src="https://github.com/Himanshu2ht/Images/blob/main/pngtree-computer-system-hardware-providers-picture-image_3397205.jpg"/>
 
 ---
 
 ## **1. Hardware🔧 vs. Software💻**
 
-<img src="https://i.ytimg.com/vi/zlT-Lg_QFTA/maxresdefault.jpg" widht="200" height="200"/>
+<img src="https://i.ytimg.com/vi/zlT-Lg_QFTA/maxresdefault.jpg" widht="300" height="300"/>
 
 ### **Hardware**
 Hardware refers to the physical components of a computer. These include:
@@ -34,7 +32,7 @@ Networking refers to the exchange of data between computers over a shared medium
 - **WAN (Wide Area Network)**: A larger network that spans cities, countries, or even continents.
 - **MAN (Metropolitan Area Network)**: A network that covers a city.
 
-<img src="https://techterms.com/img/lg/network_95.png" widht="200" height="200"/>
+<img src="https://techterms.com/img/lg/network_95.png" widht="300" height="300"/>
 
 ### **Important Networking Devices**:
 - **Router**: Directs traffic between different networks.
@@ -43,7 +41,7 @@ Networking refers to the exchange of data between computers over a shared medium
 
 ---
 
-## **3. OSI Model (7 Layers of Networking)** 🖧
+## **3. OSI Model (7 Layers of Networking)**
 
 The OSI (Open Systems Interconnection) model defines how communication occurs between two devices. It is composed of **7 layers**:
 
@@ -80,7 +78,7 @@ The OSI (Open Systems Interconnection) model defines how communication occurs be
 
 ---
 
-## **5. Blockchain** 🔗
+## **5. Blockchain**
 
 ### **What is Blockchain?**
 Blockchain is a decentralized, distributed ledger that records transactions across many computers. It is primarily known for its role in **cryptocurrency** like Bitcoin, but its applications go far beyond finance.
@@ -90,7 +88,7 @@ Blockchain is a decentralized, distributed ledger that records transactions acro
 - **Immutability**: Once data is written, it cannot be altered.
 - **Transparency**: Everyone has access to the same version of the ledger.
 
-<img src="https://m.foolcdn.com/media/dubs/images/how-blockchain-works-infographic.width-880.png" widht="300" height="300"/>
+<img src="https://m.foolcdn.com/media/dubs/images/how-blockchain-works-infographic.width-880.png" widht="350" height="350"/>
 
 ### **Applications of Blockchain**:
 - **Cryptocurrency**: Bitcoin, Ethereum, and others use blockchain for secure transactions.
@@ -99,22 +97,23 @@ Blockchain is a decentralized, distributed ledger that records transactions acro
 
 ---
 
-## **6. Computer Layers** 🖥️
+## **OSI Model: 7 Layers of Networking**
 
-A computer can be conceptualized as having **layers** of components:
+The OSI model is a framework that standardizes communication functions. It consists of **7 layers**, divided into **hardware layers** and **software layers**:
 
-1. **Hardware Layer**: CPU, memory, storage.
-2. **Firmware Layer**: Low-level control programs (BIOS).
-3. **Operating System**: Manages hardware and software resources.
-4. **Middleware**: Software that provides common services for applications.
-5. **Application Software**: Specific programs that perform user tasks.
-6. **User Interface Layer**: Where the user interacts with the system.
+1. **Physical Layer**: Manages physical connections between devices, transmitting raw data.
+2. **Data Link Layer**: Ensures data transfer within the same network using MAC addresses.
+3. **Network Layer**: Routes data between networks using IP addresses.
+4. **Transport Layer**: The "heart" of OSI, ensures reliable data delivery with protocols like TCP and UDP.
+5. **Session Layer**: Manages communication sessions between devices.
+6. **Presentation Layer**: Translates data formats and handles encryption and compression.
+7. **Application Layer**: Interacts with the user through applications like web browsers and email.
 
-<img src="" widht="100" height="100"/>
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZGnXoisgbx3EKeKtQyMVFg.png" widht="500" height="500"/>
 
 ---
 
-## **7. Databases** 🗄️
+## **7. Databases**
 
 ### **What is a Database?**
 A **database** is an organized collection of data, generally stored and accessed electronically. It allows for data storage, management, and retrieval.
@@ -123,11 +122,11 @@ A **database** is an organized collection of data, generally stored and accessed
 - **Relational Databases (RDBMS)**: Store data in tables and use SQL for querying (e.g., MySQL, PostgreSQL).
 - **NoSQL Databases**: Flexible schema databases, ideal for large-scale applications (e.g., MongoDB, Cassandra).
 
-<img src="" widht="100" height="100"/>
+<img src="https://d3an9kf42ylj3p.cloudfront.net/uploads/2023/10/kf_typesofdbms_oct23.png" widht="300" height="300"/>
 
 ---
 
-## **8. Cloud Computing** ☁️
+## **8. Cloud Computing**
 
 ### **What is Cloud Computing?**
 Cloud computing provides on-demand computing resources over the internet. It eliminates the need for maintaining physical hardware and offers flexible, scalable solutions.
@@ -137,7 +136,7 @@ Cloud computing provides on-demand computing resources over the internet. It eli
 - **PaaS (Platform as a Service)**: Development platforms and tools.
 - **SaaS (Software as a Service)**: Ready-to-use software applications.
 
-<img src="" widht="100" height="100"/>
+<img src="https://images.spiceworks.com/wp-content/uploads/2021/07/09134159/38-3-e1715636964776.png" widht="400" height="400"/>
 
 ### **Top Cloud Providers**:
 - **Amazon Web Services (AWS)**
@@ -146,7 +145,7 @@ Cloud computing provides on-demand computing resources over the internet. It eli
 
 ---
 
-## **9. Cybersecurity** 🔒
+## **9. Cybersecurity**
 
 ### **What is Cybersecurity?**
 Cybersecurity refers to the protection of internet-connected systems, including hardware, software, and data, from cyberattacks.
@@ -155,7 +154,7 @@ Cybersecurity refers to the protection of internet-connected systems, including 
 - **Malware**: Malicious software designed to harm a computer (viruses, worms).
 - **Phishing**: Fraudulent attempts to obtain sensitive information by disguising as a trustworthy entity.
 
-<img src="" widht="100" height="100"/>
+<img src="https://media.istockphoto.com/id/1420039900/photo/cyber-security-ransomware-email-phishing-encrypted-technology-digital-information-protected.jpg?s=612x612&w=0&k=20&c=8wFwFVMOpW9gF2GTOx0vagIKDaw3YNFnBVbYCmoTUSY=" widht="300" height="300"/>
 
 ### **Best Practices for Cybersecurity**:
 - Use strong passwords and two-factor authentication (2FA).
@@ -164,7 +163,7 @@ Cybersecurity refers to the protection of internet-connected systems, including 
 
 ---
 
-## **10. Artificial Intelligence (AI)** 🤖
+## **10. Artificial Intelligence (AI)**
 
 ### **What is AI?**
 Artificial Intelligence (AI) refers to the simulation of human intelligence in machines. It involves machine learning, natural language processing, robotics, and more.
@@ -174,10 +173,6 @@ Artificial Intelligence (AI) refers to the simulation of human intelligence in m
 - **Image Recognition**: Facial recognition, self-driving cars.
 - **Natural Language Processing (NLP)**: Understanding and generating human language.
 
-<img src="" widht="100" height="100"/>
+<img src="https://imageio.forbes.com/specials-images/imageserve/645b3eca0059191fb09c02fa/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds" widht="300" height="300"/>
 
 ---
-
-## **Conclusion** 🎓
-
-This presentation covers a wide range of computer science topics, from fundamental hardware and software concepts to advanced fields like blockchain and AI. The world of computer science is ever-evolving, and this is just the beginning!

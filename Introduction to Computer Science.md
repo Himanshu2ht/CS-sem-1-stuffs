@@ -12,10 +12,12 @@ A data structure is a way of organizing and storing data to enable efficient acc
 A programming language is a formal set of instructions that can be used to produce a wide range of outputs, including software applications and algorithms.  
 
 Examples include -
-- Java, 
-- Python,
-- C++, and
-- JavaScript.
+- Java,     <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" width="40" height="40"/>
+- Python,   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="40" height="40"/>
+- C++,      <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" width="40" height="40"/>
+- JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" width="40" height="40"/>  
+
+  etc.
 
 ### Database
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. It allows for efficient data management, retrieval, and manipulation.

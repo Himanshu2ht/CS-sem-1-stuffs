@@ -12,7 +12,7 @@ A data structure is a way of organizing and storing data to enable efficient acc
 A programming language is a formal set of instructions that can be used to produce a wide range of outputs, including software applications and algorithms.  
 
 Examples include -
-- Java,
+- Java, 
 - Python,
 - C++, and
 - JavaScript.

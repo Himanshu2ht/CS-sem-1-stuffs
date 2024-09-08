@@ -1,3 +1,5 @@
+![PC Image](https://github.com/Himanshu2ht/Images/blob/main/pngtree-computer-system-hardware-providers-picture-image_3397205.jpg)
+
 # Computer Science Basics, Terms, and Keywords
 ## 1. Basic Concepts
 ### Algorithm
@@ -7,7 +9,13 @@ An algorithm is a step-by-step procedure or formula for solving a problem. It pr
 A data structure is a way of organizing and storing data to enable efficient access and modification. Common types include arrays, linked lists, stacks, queues, trees, and graphs.
 
 ### Programming Language
-A programming language is a formal set of instructions that can be used to produce a wide range of outputs, including software applications and algorithms. Examples include Java, Python, C++, and JavaScript.
+A programming language is a formal set of instructions that can be used to produce a wide range of outputs, including software applications and algorithms.  
+
+Examples include -
+- Java,
+- Python,
+- C++, and
+- JavaScript.
 
 ### Database
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. It allows for efficient data management, retrieval, and manipulation.

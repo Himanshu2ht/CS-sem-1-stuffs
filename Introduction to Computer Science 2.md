@@ -2,6 +2,8 @@
 
 ## **1. Hardware🔧 vs. Software💻**
 
+<img src="https://i.ytimg.com/vi/zlT-Lg_QFTA/maxresdefault.jpg"/>
+
 ### **Hardware**
 Hardware refers to the physical components of a computer. These include:
 - **Input Devices**: Keyboard, Mouse, Touchpad
@@ -9,14 +11,10 @@ Hardware refers to the physical components of a computer. These include:
 - **Storage Devices**: Hard Disk Drive (HDD), Solid State Drive (SSD)
 - **Processing Unit**: Central Processing Unit (CPU), Graphics Processing Unit (GPU)
 
-![CPU and Hardware](https://upload.wikimedia.org/wikipedia/commons/0/07/Computer_Systems_Parts.jpg)
-
 ### **Software**
 Software refers to the programs and applications that run on hardware. It’s broadly divided into two types:
 - **System Software**: Operating systems like Windows, macOS, and Linux.
 - **Application Software**: Programs like Microsoft Word, Photoshop, web browsers, etc.
-
-![Software](https://upload.wikimedia.org/wikipedia/commons/3/3b/Software_stack.png)
 
 ---
 

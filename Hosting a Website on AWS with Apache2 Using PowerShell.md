@@ -1,9 +1,14 @@
 # Hosting a Website on AWS with Apache2 Using PowerShell
-
+### (These are the steps after launching instance and downloading .pem passkey)<br><br><br><br><br><br>
 ## Step 1: Connect to EC2 Instance Using PowerShell
-
 1. Open **PowerShell** in Windows.
-2. Use the `ssh` command to connect to your EC2 instance:
+2. Navigate to your PEM file:
+First, ensure you’re in the directory where your .pem file is located.
+Use cd to change directories:
+```bash
+cd path\to\your-pem-file
+```
+4. Use the `ssh` command to connect to your EC2 instance:
    ```bash
    ssh -i "path_to_your_key.pem" ec2-user@your_instance_public_IP
 Replace path_to_your_key.pem with the location of your private key.

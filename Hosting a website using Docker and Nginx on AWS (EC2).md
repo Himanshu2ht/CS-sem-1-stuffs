@@ -60,16 +60,13 @@ Now navigate to file created:
 ```bash
 cd ~/docker-nginx/html
 ```
-Now create a ``index.html`` and write a html code on ``vim`` code editor:
+- Now create a ``index.html`` and write a html code on ``vim`` code editor:
 ```bash
 sudo vi index.html
 ```
->> 17. cd html/<br/>
->> 18.ls # will show index.html file<br/>
->> 19.<br/>
->> 20.  press {"i"} # help to insert in the web server<br/>
->>  21. <html> hi </html> # write whatever you want to write I write only hi<br/>
->>  22. ctrl + c<br/>
->>  23. shift + ;<br/>
->> 24. wq   press {ENTER}<br/>
->>  25. docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html 
+- Now write your code and save the file.
+Then connect the file to instance:
+```bash
+docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html
+```
+### Great! You did it.

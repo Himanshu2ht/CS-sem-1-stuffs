@@ -43,7 +43,8 @@ docker run --name docker-nginx -p 80:80 -d nginx
 - Use following command to see new information about container:
 ```bash
 docker ps
-``- Use following command to stop the container:
+```
+- Use following command to stop the container:
 ```bash
 docker stop docker-nginx
 ```

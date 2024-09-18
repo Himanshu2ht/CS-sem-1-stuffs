@@ -7,16 +7,14 @@
 ```bash
 curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
 ```
--Type:
+- Type:
 ```bash
 newgrp docker
 ```
-Then type
+- Then type (This will provides a list of the Docker containers on your machine)
 ```bash
 docker ps
 ```
-This will provides a list of the Docker containers on your machine.
-
 - You can check your docker version by typing:
 ```bash
 docker --version

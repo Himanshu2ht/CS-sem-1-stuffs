@@ -66,6 +66,6 @@ vi index.html
 - Now write your code and save the file.
 Then connect the file to instance:
 ```bash
-docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html
+docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
 ```
 ### Great! You did it.

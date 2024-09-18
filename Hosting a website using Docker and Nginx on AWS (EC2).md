@@ -19,16 +19,15 @@ docker ps
 ```bash
 docker --version
 ```
-- Now, to use ``Nginx`` in our container use:
+- Now, to use ``Nginx`` in our container use the following commands:
 ```bash
 docker pull nginx
 ```
-- And:
 ```bash
 docker run --name docker-nginx -p 80:80 nginx
 ```
-- Now you can type your instance's IP and see Nginx default web page.
-Use following command to stop the container from running:
+### Now you can type your instance's IP and see Nginx default web page.  
+- Use following command to stop the container from running:
 ```bash
 ctrl + c
 ```

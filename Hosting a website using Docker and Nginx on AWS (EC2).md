@@ -7,7 +7,7 @@
 ```bash
 curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
 ```
-- Type:
+- Type following command to avoid using ``sudo`` always (right that's irritating)
 ```bash
 newgrp docker
 ```
@@ -61,7 +61,7 @@ cd ~/docker-nginx/html
 ```
 - Now create a ``index.html`` and write a html code on ``vim`` code editor:
 ```bash
-sudo vi index.html
+vi index.html
 ```
 - Now write your code and save the file.
 Then connect the file to instance:

@@ -49,18 +49,9 @@ Update the package list and install Apache2:
 ```bash
 sudo apt update
 sudo apt install apache2 -y
-sudo systemctl start apache2
-sudo systemctl enable apache2
 ```
 
-## Step 4: Configure Security Group for HTTP Traffic
-Go to EC2 Dashboard > Security Group.
-
-Edit Inbound Rules:
-
-Add a new rule for HTTP on port 80 with Source: Anywhere (0.0.0.0/0).
-
-## Step 5: Delete Default index.html and Create a New One
+## Step 4: Delete Default index.html and Create a New One
 1. Navigate to the Apache directory:
    cd /var/www/html
 2. Delete the default index.html:
@@ -71,13 +62,12 @@ Add a new rule for HTTP on port 80 with Source: Anywhere (0.0.0.0/0).
    - Example:
    ```
      <html>
-       Hlo, I am XYZ.
+       Hi, I am Himanshu.
      </html>
    ```
-5. Save and exit:
-   Press Ctrl + C, then press Y, and hit Enter to save the file.
+5. Save and exit.
 
-## Step 6: Access Your Website
+## Step 5: Access Your Website
 1. Open a Browser.
 
 2. Visit Your Website:

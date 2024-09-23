@@ -10,7 +10,7 @@ cd path\to\your-pem-file
 ```
 4. Use the `ssh` command to connect to your EC2 instance:
    ```bash
-   ssh -i "path_to_your_key.pem" ec2-user@your_instance_public_IP
+   ssh -i "your_key.pem" ec2-user@your_instance_public_IP
 Replace path_to_your_key.pem with the location of your private key.
 Replace your_instance_public_IP with the public IP of your EC2 instance.
 ## Step 2: Update the Package List on Your EC2 Instance
@@ -39,12 +39,3 @@ sudo vi index.html
 ### Add your website's HTML content and save the file.
 
 ## YAY! Your link or IP adress of your instance will now work.
-
-
-
-
-
-
-
-
-ChatGPT can make 

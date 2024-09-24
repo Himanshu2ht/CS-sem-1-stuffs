@@ -1,4 +1,4 @@
-# 3. USING MINIKUBE IN AWS
+# Using Kubernetes, Minikube and Kubectl
 
 **First open aws search EC2 then Launch Instance and select 22.04 AMI then select t2.xlarge instance type then select keypair then configure storage to 30 GB then enable all traffic in network and Launch.**
 

@@ -1,184 +1,134 @@
-# Using Kubernetes, Minikube and Kubectl
+# Learn to use Kubernetes, Docker, Minikube and Kubectl
 
-## 1. Launch your AWS instance with following preferences:
-- t2.xlarge
+## Launch your AWS instance with following preferences:
+- Ubuntu OS
+- t2.xlarge (16GB ram)
+- 50 GB storage
+- HTTP/HTTPS and All traffic (anywhere) enabled
 
-**Now connect it with putty and login into it by writing ubuntu**
+### Now open your instance in PuTTY and follow the following commands.
 
-### Now put some commands
+## Installing Docker, Minikube and Kubectl
 
-```
+### 1. Install Docker;
+
+```bash
 curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
 ```
-**it will install docker**
 
-
-
-
-```
+- Use the following commands 
+```bash
 sudo usermod -aG docker $USER
 ```
-```
+
+- ↑ The command sudo usermod -aG docker $USER is used to add the current user to the docker group.
+
+
+```bash
 newgrp docker
 ```
-
-**it will Add your local user to docker group so that your local user run docker commands**
-
+- ↑ The newgrp docker command is used to switch the current group of the active shell to the docker group without having to log out and log back in.
 
 
+### 2. Installing Kubectl;
 
-
-
-```
+```bash
 sudo snap install kubectl --classic
 ```
-**it will intall kubectl tools**
 
+- Check Kubectl version;
 
-
-
-
-```
+```bash
 kubectl version --client
 ```
-**it checks the version**
 
-### Installing Minikube
+### 3. Installing Minikube;
 
-```
+```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 ```
-```
+
+```bash
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
-#
-#
-```
+- Check Minikube version:
+
+```bash
 minikube version
 ```
-**it checks its version**
 
-### Starting Minikube with Docker Driver
+## Now that we have Minikube installed, let’s start a Minikube cluster using the Docker driver:
 
-```
+```bash
 minikube start --driver=docker
 ```
 
-
-
-
-
-
-
-**# If you encounter root privileges error, run:**
-```
-minikube start --driver=docker --force
-```
-
-```
+- Check Minikube status:
+```bash
 minikube status
 ```
-**it checks its status**
 
-
-
-
-
-
-
-```
+```bash
 kubectl cluster-info
 ```
-**it checks cluster info**
 
-
-
-```
+```bash
 kubectl config view
 ```
-**it will  show the config**
 
-
-
-
-
-
-
-```
+```bash
 kubectl get nodes
 ```
-**it will display  nodes in it**
 
-
-```
+```bash
 kubectl get pods
 ```
-**it will show pods in it**
 
-
+```bash
+minikube dashboard
 ```
+<br>
+
+## Let’s deploy a simple Nginx web server using kubectl:
+
+```bash
 kubectl create deployment nginx-web --image=nginx
 ```
-```
+
+```bash
 kubectl expose deployment nginx-web --type NodePort --port=80
 ```
-```
+
+```bash
 kubectl get deployment,pod,svc
 ```
-**it will deploy a sample nginx deployment**
 
+## Managing Minikube Addons
 
-```
+```bash
 minikube addons list
 ```
-**It will display all addons**
 
-
-
-
-
-
-
-```
+```bash
 minikube addons enable dashboard
+```
+
+```bash
 minikube addons enable ingress
 ```
-**this  enables these addons**
 
+- The following command will give you a link for your dashboard:
 
-
-
-
-
-
-
-
-
-
+```bash
+minikube dashboard --url
 ```
-minikube dashboard --url**
-```
-**it will get the url and run the dashboard of MiniKube**
 
-
-
-
-
-
-```
+```bash
 kubectl proxy --address='0.0.0.0' --disable-filter=true &
 ```
-**This will enable port :8001 to access it on your public ip**
 
-
-
-
-
-
+```bash
+http://server_ip:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/
 ```
-http://server_ip:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/workloads?namespace=default
-```
-### Now go to above link and replace server_ip with your public ip and it will show you like :
-
-![minik8s](https://github.com/user-attachments/assets/f92e7dca-a8c0-4c8e-aae8-4a0c88c5443e)
+- ↑ In your browser replace server_ip with public ip

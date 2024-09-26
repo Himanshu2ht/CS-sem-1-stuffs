@@ -10,13 +10,14 @@
 
 ## Installing Docker, Minikube and Kubectl
 
-### 1. Install Docker;
+### 1. Install Docker:
 
 ```bash
 curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
 ```
 
 - Use the following commands 
+
 ```bash
 sudo usermod -aG docker $USER
 ```
@@ -30,19 +31,19 @@ newgrp docker
 - ↑ The newgrp docker command is used to switch the current group of the active shell to the docker group without having to log out and log back in.
 
 
-### 2. Installing Kubectl;
+### 2. Installing Kubectl:
 
 ```bash
 sudo snap install kubectl --classic
 ```
 
-- Check Kubectl version;
+- Check Kubectl version:
 
 ```bash
 kubectl version --client
 ```
 
-### 3. Installing Minikube;
+### 3. Installing Minikube:
 
 ```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64

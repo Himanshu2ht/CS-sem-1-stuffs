@@ -16,19 +16,19 @@
 curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
 ```
 
-- Use the following commands 
+- Use the following commands:
 
 ```bash
 sudo usermod -aG docker $USER
 ```
 
-- ↑ The command sudo usermod -aG docker $USER is used to add the current user to the docker group.
+- ↑ The command `sudo usermod -aG docker $USER` is used to add the current user to the docker group.
 
 
 ```bash
 newgrp docker
 ```
-- ↑ The newgrp docker command is used to switch the current group of the active shell to the docker group without having to log out and log back in.
+- ↑ The `newgrp docker` command is used to switch the current group of the active shell to the docker group without having to log out and log back in.
 
 
 ### 2. Installing Kubectl:
@@ -132,4 +132,4 @@ kubectl proxy --address='0.0.0.0' --disable-filter=true &
 ```bash
 http://server_ip:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/
 ```
-- ↑ In your browser replace server_ip with public ip
+- ↑ In your browser replace `server_ip` with public ip

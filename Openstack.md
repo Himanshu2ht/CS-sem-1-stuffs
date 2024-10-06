@@ -2,6 +2,7 @@
 
 ## Launch your AWS instance with following preferences:
 - Ubuntu OS
+- Ubuntu 22.04 LTS
 - t2.xlarge (16GB ram)
 - 50 GB storage
 - HTTP/HTTPS and All traffic (anywhere) enabled
